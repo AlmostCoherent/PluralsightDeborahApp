@@ -23,7 +23,7 @@ import { FormModule } from './form/form.module';
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
     ProductModule,
-    FormModule   
+    FormModule
   ],
   providers: [
     ProductDetailGuard
